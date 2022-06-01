@@ -12,13 +12,13 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Thesis: A Rails CMS that doesn't hijack your development workflow.}
   gem.homepage      = "https://github.com/clearsightstudio/thesis"
 
-  gem.required_ruby_version     = '>= 2.0.0'
+  gem.required_ruby_version     = '>= 2.5.0'
 
   gem.files         = Dir["{lib,app,config}/**/*"] + ["README.md", "LICENSE.txt"]
   gem.require_paths = ["lib", "app"]
   gem.test_files = Dir["spec/**/*"]
 
-  gem.add_dependency "rails", ">= 4.0", "< 8.0"
+  gem.add_dependency "rails", ">= 5.0"
   gem.add_dependency "sass", ">= 3.3"
   gem.add_dependency "sass-rails", ">= 5.0"
 end
